@@ -1,7 +1,5 @@
-*{box-sizing: border-box;}
+#container{ border:5px solid black; width: 480px; height: 480px;
+    display: flex; flex-flow: row wrap;}
 
-#container{width: 480px; height: 480px; border:5px solid black; 
-    display: flex;flex-flow: row wrap;}
-
-.cell{border:1px solid red;display: inline-block;}
+.cell{border:1px solid red;display: inline-block;box-sizing: border-box;}
 .cell:hover {background-color: rgb(104, 103, 103);}
