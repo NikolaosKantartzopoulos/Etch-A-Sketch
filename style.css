@@ -1,0 +1,7 @@
+*{box-sizing: border-box;}
+
+#container{width: 480px; height: 480px; border:5px solid black; 
+    display: flex;flex-flow: row wrap;}
+
+.cell{border:1px solid red;display: inline-block;}
+.cell:hover {background-color: rgb(104, 103, 103);}
