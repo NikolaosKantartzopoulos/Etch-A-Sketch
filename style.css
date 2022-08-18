@@ -1,5 +1,6 @@
-#container{ border:5px solid black; width: 480px; height: 480px;
+#container{ border:5px solid greenyellow; width: 480px; height: 480px;
     display: flex; flex-flow: row wrap;}
 
 .cell{border:1px solid red;display: inline-block;box-sizing: border-box;}
+.cell_black{border:1px solid red;display: inline-block;box-sizing: border-box; background-color: black;}
 .cell:hover {background-color: rgb(104, 103, 103);}
