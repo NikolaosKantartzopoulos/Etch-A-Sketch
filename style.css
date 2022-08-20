@@ -1,6 +1,15 @@
-#container{ border:5px solid greenyellow; width: 480px; height: 480px;
-    display: flex; flex-flow: row wrap;}
+body{background-color: beige; margin: auto;}
+#container{ border:5px solid rgb(153, 255, 0); width: 480px; height: 480px;
+    display: flex; flex-flow: row wrap; cursor: pointer;}
 
-.cell{border:1px solid red;display: inline-block;box-sizing: border-box;}
+p{color: rgb(255, 68, 0); font-size: 5rem; margin:1vh auto}
+button{
+    background-color: rgb(240, 134, 96); margin: 5px; color: rgb(153, 255, 0); font-size: 1.5em; font-style: italic;
+ border:3px solid rgb(255, 68, 0); padding: 10px 20px; border-radius: 15%; 
+}
+
+.flex_col{display: flex; flex-flow: column; align-items: center; justify-content: space-around;}
+.flex_row{display: flex; flex-flow: row; align-items: center; justify-content: space-around;}
+
+.cell{border:1px solid black;display: inline-block;box-sizing: border-box; cursor: pointer; }
 .cell_black{border:1px solid red;display: inline-block;box-sizing: border-box; background-color: black;}
-.cell:hover {background-color: rgb(104, 103, 103);}

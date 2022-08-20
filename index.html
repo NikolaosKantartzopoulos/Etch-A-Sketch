@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="style.css" />
     <title>Etch-A-Sketch</title>
   </head>
-  <body>
-    <button id="num_of_divs">Size</button>
-    <button id="clear_btn">Clear</button>
+  <body class="flex_col">
+    <p>Etch-a-Sketch</p>
+    <div class="flex_row">
+      <button id="size-1" onclick="create_grid(4)">4*4</button>
+      <button id="size-2" onclick="create_grid(8)">8*8</button>
+      <button id="size-3" onclick="create_grid(16)">16*16</button>
+      <button id="size-4" onclick="create_grid(32)">32*32</button>
+      <button id="clear_btn">Clear</button>
+    </div>
     <div id="container"></div>
   </body>
   <script src="script.js"></script>
